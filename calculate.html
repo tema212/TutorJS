@@ -1,0 +1,210 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="calculate.css">
+        <title>TutorJS</title>        
+        
+        <script src="calcule.js"></script>
+    </head>
+    
+    
+    <body>
+        
+        <p class="name">простейший калькулятор</p>
+        <p class="task">что нужно для написания:</p>
+        <p class="task">&#8226;нам нужно прописать все данные ввода в html</p>
+        <p class="task">&#8226;создать js документ для работы калькулятора</p>
+        <p class="task">PS. весь скрипт можно  написать в html</p>
+        <br>
+        
+        <P class="enter">Начнем</P>
+        
+            <p class="task">1) для начала пропишем Html где будет находиться внешний вид сайта</p>
+        <div class="gg">
+            <p class="cody">&lt;!DOCTYPE HTMP&gt;</p>
+            
+            <p class="cody">&lt;html&gt;</p>
+            <p class="cody">&lt;head&gt;</p>
+            
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;</p>
+            
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="" href=""&gt;</p>
+            
+            <p class="cody">&lt;/head&gt;</p>
+            
+            <p class="cody">&lt;body&gt;</p>
+            
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&gt;</p>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;</p>
+            
+            <p class="cody">&lt;/body&gt;</p>
+            <p class="cody">&lt;/html&gt;</p>
+        </div>
+        <br>
+        
+        <p class="task">2) видем в наш Html все нужные строки для ввода данных не забывая приписывая ID для нащего JS</p>
+        
+        <br>
+        <div class="gg">
+            <p class="codyB">&lt;!DOCTYPE HTMP&gt;</p>
+            
+            <p class="codyB">&lt;html&gt;</p>
+            <p class="codyB">&lt;head&gt;</p>
+            
+            <p class="codyB">&nbsp;&nbsp;&nbsp;&nbsp;&lt;meta charset="UTF-8"&gt;</p>
+            
+            <p class="codyB">&nbsp;&nbsp;&nbsp;&nbsp;&lt;link rel="" href=""&gt;</p>
+            
+            <p class="codyB">&lt;/head&gt;</p>
+            
+            <p class="codyB">&lt;body&gt;</p>
+            
+                <p class="cody">&lt;div class="colcut"&gt;</p>
+         <div>       
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="num1" &gt;</p>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;div id="operator_btns" "&gt;</p>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="plus" onclick="op='+'"&gt;&nbsp; +&nbsp; &lt;/button&gt;</p>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="minus" onclick="op='-'"&gt;&nbsp; -&nbsp; &lt;/button&gt;</p>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="times" onclick="op='*'"&gt;&nbsp; X&nbsp; &lt;/button&gt;</p>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;button id="divide" onclick="op='/'"&gt;&nbsp; :&nbsp; &lt;/button&gt;</p>
+                <p class="cody">&lt;/div&gt;</p>
+            </div>
+            <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="num2" &gt;</p>
+            
+            <p class="cody">&lt;button onclick="func()"&gt;&nbsp;Посчитать&nbsp;&lt;/button&gt;</p>
+            <p class="cody">&lt;div class="res"id="result"&lt;/div&gt;</p>
+            
+            
+            
+            <p class="codyB">&nbsp;&nbsp;&nbsp;&nbsp;&lt;script&gt;</p>
+            <p class="codyB">&nbsp;&nbsp;&nbsp;&nbsp;&lt;/script&gt;</p>
+            
+            <p class="codyB">&lt;/body&gt;</p>
+            <p class="codyB">&lt;/html&gt;</p>
+        </div>
+      <p class="task">это должно получиться</p> 
+        <div class="lmao">
+            <div class="colcut">
+        <input id="" />
+
+	<div id="">
+	  <button id="" onclick="op='+'">+</button>
+	  <button id="" onclick="op='-'">-</button>
+	  <button id="" onclick="op='*'">x</button>
+	  <button id="" onclick="op='/'">:</button>
+	</div>
+
+	
+	<input id="" />
+	<br>
+
+	
+	<button onclick="func()">Посчитать</button>
+
+	
+	<div class="res"id=""></div>
+        </div>
+        </div>    
+        <p class="task">3)начнем прописывать скрипт для работы нашего калькулятора</p>
+        <p class="task">&#8226;скрипт будем писать в отдельном файле </p>
+            <div class="gg">
+                <p class="cody">let op;</p>
+                <p ></p>
+                <p class="cody">function func() {</p>
+                <p></p>
+                <p class="cody"></p>
+                <p class="cody">	    let result;</p>
+                <p></p>
+                <p class="cody">let num1 = Number(document.getElementById("num1").value);</p>
+                <p class="cody">let num2 = Number(document.getElementById("num2").value);</p>
+                <p></p>
+                <p class="cody">switch (op) {</p>
+                <p class="cody">&nbsp;&nbsp;case '+':</p>
+                <p class="cody">	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = num1 + num2;</p>
+                <p class="cody">	        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</p>
+                <p class="cody">&nbsp;&nbsp;case '-':</p>
+                <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = num1 - num2;</p>
+                <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</p>
+                <p class="cody">&nbsp;&nbsp;case '*':</p>
+                <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = num1 * num2;</p>
+                <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</p>
+                <p class="cody">&nbsp;&nbsp;case '/':</p>
+                <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;result = num1 / num2;</p>
+                <p class="cody">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break;</p>
+                    <p class="cody">}</p>
+                <p></p>
+                <p class="cody">document.getElementById("result").innerHTML = result;</p>
+                <p class="cody">}</p>
+            </div>
+        
+     <p class="task">Итог:</p> 
+        
+     <div class="lmao"> 
+	<div class="colcut">
+        <input id="num1" />
+
+	<div id="operator_btns">
+	  <button id="plus" onclick="op='+'">+</button>
+	  <button id="minus" onclick="op='-'">-</button>
+	  <button id="times" onclick="op='*'">x</button>
+	  <button id="divide" onclick="op='/'">:</button>
+	</div>
+
+	
+	<input id="num2" />
+	<br>
+
+	
+	<button onclick="func()">Посчитать</button>
+
+	
+	<div class="res"id="result"></div>
+        </div>  
+        </div>
+	
+	<script>
+	 
+	  let op; 
+
+	  
+	  function func() {
+	  	
+	    let result;
+	    
+	    let num1 = Number(document.getElementById("num1").value);
+	    let num2 = Number(document.getElementById("num2").value);
+	    
+	    switch (op) {
+	      case '+':
+	        result = num1 + num2;
+	        break;
+	      case '-':
+	        result = num1 - num2;
+	        break;
+	      case '*':
+	        result = num1 * num2;
+	        break;
+	      case '/':
+	        result = num1 / num2;
+	        break;
+	    }
+
+	    document.getElementById("result").innerHTML = result;
+	  }
+        
+	</script>
+        
+        
+        
+        <a class="examplebtn" href="button.html">кнопка</a>
+        <a class="emty">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        
+            <a class="examplebtn" href="tutor.html">назад</a>
+        <a class="emty">&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <a class="examplebtn" href="ran.html">бегущая строка</a>
+
+        
+        
+    </body>
+</html

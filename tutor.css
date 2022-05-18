@@ -1,0 +1,93 @@
+body{
+background: #f6e552;
+background: -webkit-linear-gradient(to top, #f6e552 33%, #e321b3 100%);
+background: -moz-linear-gradient(to top, #f6e552 33%, #e321b3 100%);
+background: linear-gradient(to top, #f6e552 33%, #e321b3 100%);
+    text-align: center;
+}
+
+/*---пустая страка---*/
+.emty{
+    color:#f6e552;
+    color: background: -webkit-linear-gradient(to top, #f6e552 33%, #e321b3 100%);
+    color: background: -moz-linear-gradient(to top, #f6e552 33%, #e321b3 100%);
+    color:linear-gradient(to top, #f6e552 33%, #e321b3 100%);
+}
+
+
+.vod{
+    color: white;
+    margin-top:25px; 
+    font-size:35px;
+    justify-content: space-between 25px; transition: 1s;
+}
+.vod:hover{
+    transform: scale(1.2);
+}
+
+.name{
+    color: white;
+    font-size: 50px;
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;transition: 1s;
+}
+.name:hover{
+    transform: scale(1.2);
+}
+
+.explaine{
+    color:black;
+    font-size: 40px;
+    margin-top: 50px;
+   border: 4px solid rgba(211,  107,  61, 1); 
+  background: white;
+    width: 30%;
+    margin: auto;
+    display: block;
+    font-style: italic;
+  
+    
+
+    
+}
+
+.examplebtn{
+    color: black;
+    background: white;
+    font-size: 25px;
+    height: auto;
+    line-height:;
+    margin-bottom: 53px;
+    border-spacing: 
+}
+
+
+.examplebtn {
+  font-family: 'Ubuntu';
+  font-size: 23px;
+  color: #030303 !important;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 0px ridge #f3c846;
+  background: #ffffff;
+  background: linear-gradient(to top, #ffffff, #fafafa);
+}
+.examplebtn:hover {
+  color: #cccccc !important;
+  background: #4ddacb;
+  text-underline-position:  
+}
+
+
+lol{
+  color: black;
+  font-size: 25px;
+      
+}
+
+.vodka{
+    
+    margin-bottom: 45px;
+}

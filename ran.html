@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<meta charset="utf-8">
+    <link href="ran.css" rel="stylesheet">
+    
+    </head>
+<body>
+    <marquee class="name">Бегущая строка</marquee>
+    
+    <p class="task">&#8226;
+        Для создания бегущей строки в Html используется команда <mark>Marquee</mark>       
+    </p>
+<br>
+
+    <div class="lmao">
+        <p class="text">&lt;marquee&gt; Бегущая строка&lt;/marquee&gt;</p>
+    </div>
+<br>
+    <p class="task">&#8226;Для создания бегущей строки в Js скрипт будет подлинее)</p>
+    <br>
+    <div class="gg">
+        <p class="task">!Doctype Html</p>
+        <p class="text">&lt; a id="ran" class="text">Бегущая строка &lt;/a&gt;</p>
+        <p class="task">!Doctype Js</p>
+        <p class="text">function animate(id) {</p>
+        <p class="text">&nbsp;&nbsp;let node = </p>
+        <p class="text">&nbsp;&nbsp;document.getElementById(id).childNodes[0];</p>
+        <p class="text">let text = node.data;</p>
+        <p class="text">setInterval(function () {</p>
+        <p class="text">text = text.substring(1) + text[0];</p>
+        <p class="text">node.data = text;</p>
+        <p class="text">}, 175);</p>
+        <p class="text">}</p>
+        <p class="text"> window.addEventListener('load', function (e) { animate('ran'); }, false);</p>
+        
+    </div>
+    
+    <a></a>
+    <div>
+    <a id="ran" class="ran">Бегущая 
+        строка </a>
+    </div>
+<script>
+ function animate(id) {
+  let node = document.getElementById(id).childNodes[0];
+  let text = node.data;
+  setInterval(function () {
+   text = text.substring(1) + text[0];
+   node.data = text;
+  }, 175);
+ }
+ window.addEventListener('load', function (e) { animate('ran'); }, false);
+</script>
+    <br>
+    
+    <a class="examplebtn" href="calculate.html">простейший калькулятор</a>
+    <a >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+     <a class="examplebtn" href="tutor.html">назад</a>
+    
+    
+    </body>
+</html>

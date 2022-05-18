@@ -1,0 +1,104 @@
+body{
+    background: #fcf1ef;
+background: -webkit-linear-gradient(to top right, #fcf1ef 27%, #21e3a8 100%);
+background: -moz-linear-gradient(to top right, #fcf1ef 27%, #21e3a8 100%);
+background: linear-gradient(to top right, #fcf1ef 27%, #21e3a8 100%);
+    text-align: center;
+}
+.enother{
+    color:black;
+font-size: 30px;
+    width: 50%;
+    
+}
+
+.gett{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    background: black;
+   background: -webkit-repeating-linear-gradient(to bottom left, #231816 66%, #e32f21 100%);
+background: -moz-repeating-linear-gradient(to bottom left, #231816 66%, #e32f21 100%);
+background: repeating-linear-gradient(to bottom left, #231816 66%, #e32f21 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+    border: 2px solid #f66d52;
+ 
+   
+    
+}
+
+.bord{
+   background: white;
+}
+
+.name{
+    color: white;
+   
+      -webkit-text-shadow: 35px 0px 3px rgba(10,  212,  181, 0.61);
+-moz-text-shadow: 35px 0px 3px rgba(10,  212,  181, 0.61);
+text-shadow: 35px 0px 3px rgba(10,  212,  181, 0.61);
+    font-size: 35px;
+    font-size: 50px;
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px; transition: 1s;
+}
+.name:hover{
+    transform: scale(1.2);}
+
+
+.cody{
+  background: -webkit-repeating-linear-gradient(to bottom left, #231816 66%, #e32f21 100%);
+background: -moz-repeating-linear-gradient(to bottom left, #231816 66%, #e32f21 100%);
+background: repeating-linear-gradient(to bottom left, #231816 66%, #e32f21 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 20px;
+    text-indent: 20px;
+    text-align: left;
+    margin-top: 6px;
+    
+}
+
+
+.gg{
+    background: white;
+  width: 55%;
+  height: 100%;
+  border: 2px solid #f66d52;
+    margin-bottom: 25px;
+    margin: auto;
+    display: block;
+}
+     
+.examplebtn{
+    color: black;
+    background: white;
+    font-size: 25px;
+    height: auto;
+    line-height:;
+    margin-bottom: inherit 53px;
+    
+        
+}
+
+
+.examplebtn {
+    
+  font-family: 'Ubuntu';
+  font-size: 23px;
+  color: #030303 !important;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: 0px ridge #f3c846;
+  background: #ffffff;
+  background: linear-gradient(to top, #ffffff, #fafafa);
+}
+.examplebtn:hover {
+  color: #cccccc !important;
+  background: #4ddacb;
+  text-underline-position:  
+}
